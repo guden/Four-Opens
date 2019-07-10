@@ -13,16 +13,22 @@ Open Design
     meet your needs.
 
 The Four Opens are all about the acceptance of letting go of control over an
-open source project. One popular open source development model for an
-organization to release it has developed under an open source license. While
-most of them will also commit to a transparent and inclusive development
-process, they still frequently maintain control of the software with most of
-the design decisions being made by organization leaders and implemented by
-their employees. The principle of "Open design" takes this one step beyond and
-guarantees a transparent and open process for planning and designing the
-software. It's about letting go of the control of the design of the software
-and its feature road-map, and accepting that it should be driven by the
-community.
+open source project. A common open source development model for traditional
+software development organizations is to develop internally, then release
+their project under an open source license once it is mostly complete.
+While most of them will also commit to a transparent and inclusive
+development process, they still frequently maintain control of the software
+with most of the design decisions being made by organization leaders and
+implemented by their employees. This keeps control of the direction of the
+project with the organization, but can result in missing out on unexpected
+ideas from community members and may actually discourage others from getting
+involved in what they may perceive as a company product rather than an open and
+inclusive community project.
+
+Using the principle of "Open Design" takes this one step beyond and guarantees
+a transparent and open process for planning and designing the software. It's
+about letting go of the control of the design of the software and its feature
+roadmap, and accepting that it should be driven by the community.
 
 This is not easy to do. Design is an opinionated process. Design by committee
 can be inefficient. It's easier and faster to keep design and feature
