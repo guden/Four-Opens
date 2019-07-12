@@ -3,19 +3,19 @@ Open Community
 ==============
 
     One of our core goals is to maintain a healthy, vibrant developer and user
-    community. Most decisions are made using a lazy consensus model. All
-    processes are documented, open and transparent.
+    community. Most decisions in the community are made using a lazy consensus
+    model and all processes are documented, open and transparent.
 
     The technical governance of the project is provided by the community
     itself, with contributors electing team leads and members of the Technical
     Committee.
 
-    All project meetings are held in public IRC channels and recorded.
-    Additional technical communication is through public mailing lists and is
+    All project meetings are held in public IRC channels and are recorded.
+    Additional technical communication is through public mailing lists and are
     archived.
 
 "Open Community" is the critical piece of the Four Opens puzzle. It embodies
-the key difference with single-vendor controlled open source projects. It is
+the key difference from single-vendor controlled open source projects. It is
 about ensuring that the community is a cohesive, inclusive, level playing
 ground where all the voices are heard and anyone can rise to leadership
 positions.
@@ -44,13 +44,12 @@ Open Community defines how to best align these forces through:
 
 Common Mission & Goals
 ----------------------
-A strong mission statement is one
-of the most critical elements to achieve a healthy open source community. It's
-imperative to outline a long term vision that is focused, but not overly
-constrained. A strong mission statement helps define the community values and
-provides a guide to make decisions and prioritize activities. It also helps new
-contributors and adjacent communities quickly understand the goals of the
-project.
+A strong mission statement is one of the most critical elements to achieve
+a healthy open source community. It's imperative to outline a long term vision
+that is focused, but not overly constrained. A strong mission statement helps
+define the community values and provides a guide to make decisions and
+prioritize activities. It also helps new contributors and adjacent communities
+quickly understand the goals of the project.
 
 Getting the current stake-holders input and buy-in is key to the success.
 Typically a mission statement is developed in the early days of the project
@@ -72,9 +71,9 @@ projects are just another group, so they need governance in order to avoid
 decision apathy. There needs to be a place where the buck stops, with a clear
 strategy in place to how to solve problems before they arise.
 
-It is tempting, especially amongst tech people, to start with no rule, to to
+It is tempting, especially amongst tech people, to start with no rules and to
 make them up as you go along. This is anarchy as a form of governance, and a
-community formed under the absence of rule will naturally resist later
+community formed under the absence of rules will naturally resist later
 organization, as something they did not sign up for and resent.
 
 It is also tempting to crown the project's initial creator as the "benevolent
@@ -104,17 +103,16 @@ Allowing for replacement
  generally encourage turnover.
 
 Distinct groups call for distinct governance bodies
- If a community is made of
- disjoint groups with little to no overlap in membership, and those groups all
- need decisions to be made, then they probably need to each have their own
- governance body at that level.
+ If a community is made of disjoint groups with little to no overlap
+ in membership, and those groups all need decisions to be made, then
+ they probably need to each have their own governance body at that level.
 
 Avoid vanity governance bodies
  There is no point in having a governance body where there is nothing
  to govern and no decision needed. Not every group of people in a
  community needs a governance body.
 
-There is no one-size-fits-all implementation of those basic rules that would
+There is no one-size-fits-all implementation of these basic rules that would
 work for any project. The size of the project is a critical difference.
 Sometimes a multiple-level structure to properly balance autonomy and
 consistency.
@@ -148,8 +146,8 @@ Code of Conduct
  its start. However, creating a path for conflict identification and
  resolution at the start can head off issues before they balloon out
  of control and alienate valuable contributors and community members.
- Make the code of conduct carefully crafted, but also prominent, part
- of larger strategy to be inclusive and diverse. The OpenStack
+ Make the code of conduct a carefully crafted, but also prominent, part
+ of the larger strategy to be inclusive and diverse. The OpenStack
  Foundation initially adopted the Ubuntu Code of Conduct when
  establishing its own.
 
@@ -171,8 +169,8 @@ Code of Conduct
  and gives the Foundation staff a clear process to follow and removes
  the emotion from the process.
 
-    Check the health of your community as you go. Do you have something similar
-    to the following?
+    Check the health of your community as you go. Do you have something
+    similar to the following?
 
     Groups that advocate for minorities: A working group to help ensure
     projects and teams within the community are following the code of conduct
@@ -218,7 +216,7 @@ community. OpenStack initially started collaborating with Google Docs, but
 ultimately realized that we excluded a large portion of the world where Google
 products were inaccessible/unavailable.
 
-Host meetings in way that can be archived and searched so that the
+Host meetings in a way that can be archived and searched, so that the
 conversations are accessible to all time-zones and participants who do
 not speak English as their first language. Internationalization
 (translation, tool choices like google docs, time-zones), in general,
@@ -239,7 +237,7 @@ Branding & positioning
 ----------------------
 
 Branding and positioning is an example of collaboration across forces
-and product definition including tools and processes.
+and product definition which includes tools and processes.
 
 Develop with stake-holders, open to community Some degree of
 collaboration is useful and necessary, but only to an extent. This is
@@ -317,7 +315,7 @@ problems. OpenStack Days Industry events
 Education & On-boarding
 -----------------------
 
-Goal to make the barrier to entry as low as possible. Clear,
+The goal is to make the barrier to entry as low as possible. Clear,
 discoverable and digestible documentation Recorded and real time
 on-boarding sessions - webinars, f2f sessions at events Suggest
 training the trainer - creating a toolbox and guidelines to provide
