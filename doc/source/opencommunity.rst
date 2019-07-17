@@ -34,7 +34,7 @@ Open Community defines how to best align these forces through:
 - Effective governance & leadership.
 - Diversity & Inclusiveness.
 - Contributor recognition & motivation.
-- Communication.
+- Open & Transparent Communication.
 - Branding & positioning (example of collaboration across forces, product
   definition).
 - Education & On-boarding.
@@ -54,14 +54,16 @@ quickly understand the goals of the project.
 Getting the current stake-holders input and buy-in is key to the success.
 Typically a mission statement is developed in the early days of the project
 when there are fewer contributors, which makes it critical and as a bonus, a
-bit easier--to have an open discussion and process. Similarly, changing the
+bit easier to have an open discussion and process. Similarly, changing the
 mission statement should not be taken lightly, and can be a challenging process
-as the community grows and there are a broader range of perspectives.  A good
+as the community grows and there are a broader range of perspectives. A good
 example of this process came from the Zuul project. Project leaders first
-drafted example mission statements in an etherpad, which was circulated to the
-public mailing list for feedback and new ideas [link to archive]. The list of
-ideas from the etherpad was then put to a Condorcet vote [link to archive] for
-the same group of contributors, and the result was:
+drafted example mission statements in an etherpad [#f1]_, which was circulated
+to the public mailing list for feedback and new ideas [#f2]_. The list of
+ideas from the etherpad was then put to a Condorcet vote [#f3]_ for the same
+group of contributors, and the result was: "To provide software and processes
+to automate continuous integration, delivery, and deployment of interrelated
+software projects in a secure manner using project gating."
 
 Effective Governance & Leadership
 ---------------------------------
@@ -196,8 +198,16 @@ will ultimately make for a stronger community.
 Contributor Recognition & Motivation
 ------------------------------------
 
-Communication
--------------
+An open source project cannot survive without contributors, so it is important
+for project leaders to motivate developers and find chances to encourage
+them. It could be a mention in the project newsletters or an email sent to
+public mailing lists or blog posts. Another good example could be the Open
+Infrastructure Community Contributor Awards [#f4]_ which offer recognition to
+behind-the-scenes heroes and are nominated at every Summit by other community
+members.
+
+Open & Transparent Communication
+--------------------------------
 
 Is there anything more emblematic of the modern work-force than attempting to
 solve the problem of day-to-day communication? Open source communities face
@@ -347,3 +357,10 @@ collaborate and participate. In turn actively reach out to engage and
 participate in other communities to enhance integration efforts. Need
 examples here
 
+
+.. rubric:: Footnotes
+
+.. [#f1] https://etherpad.openstack.org/p/zuul-mission
+.. [#f2] http://lists.zuul-ci.org/pipermail/zuul-discuss/2018-May/000394.html
+.. [#f3] https://civs.cs.cornell.edu/cgi-bin/results.pl?id=E_708e8e18e160cdcf
+.. [#f4] https://superuser.openstack.org/articles/open-infrastructure-community-contributor-awards-denver-summit-edition/
