@@ -2,80 +2,117 @@
 Open Design
 ===========
 
-    We are committed to an open design process. Every development cycle the
-    OpenStack community holds face-to-face events to gather requirements and
-    write specifications for the upcoming release. Those events, which are open
-    to anyone, include users, developers, and upstream projects. We gather
-    requirements, define priorities and flesh out technical design to guide
-    development for the next development cycle.
+In the previous section we established the concept of Open Community, which
+requires transparency in every step of creating and maintaining artifacts;
+Open Design is an essential part of this.
 
-    The community controls the design process. You can help make this software
-    meet your needs.
+In order to provide access to everyone to all steps and decision points of the
+design process, no one person, group of people or organization can maintain
+control over the project.
 
-The Four Opens are all about the acceptance of letting go of control over an
-open source project. A common open source development model for traditional
-software development organizations is to develop internally, then release
-their project under an open source license once it is mostly complete.
-While most of them will also commit to a transparent and inclusive
-development process, they still frequently maintain control of the software
-with most of the design decisions being made by organization leaders and
-implemented by their employees. This keeps control of the direction of the
-project with the organization, but can result in missing out on unexpected
-ideas from community members and may actually discourage others from getting
-involved in what they may perceive as a company product rather than an open and
-inclusive community project.
+It is a common practice for companies to develop software in-house and then
+release the code as open source and start to form a community around it. As
+part of their actions on the way they often fail with letting go of the control
+over the software and processes within the community. This can easily result in
+a single-vendor community as the leadership positions and decisions are mainly
+controlled by this organization and therefore other contributors cannot take
+ownership and feel as being equally involved in the community.
 
-Using the principle of "Open Design" takes this one step beyond and guarantees
-a transparent and open process for planning and designing the software. It's
-about letting go of the control of the design of the software and its feature
-roadmap, and accepting that it should be driven by the community.
+Single-vendor projects don't have a good reputation as both the design
+directions and maintenance are highly dependent on the controlling organization
+which puts high risk on the project for users and other companies to depend on
+it. At the same time contributors, who are not part of that one company, can't
+feel to be equal members if they don't have the option to be involved in all
+steps and decisions, which will discourage them from participating.
 
-This is not easy to do. Design is an opinionated process. Design by committee
-can be inefficient. It's easier and faster to keep design and feature
-development in the hands of a happy few, behind closed doors, than to get
-consensus across a community around desired features and priorities. But that
-would be choosing to go fast in the short term with a small group rather than
-going far in the long term with a larger group. Community-agreed design will be
-slow, but it will lead to a better product that better answers the need of the
-users.
+By opening up the design process for everyone to participate in and have their
+voices heard, you will get more innovative ideas and more robust solutions.
 
-In this section we'll cover how to set up your project and your development
-cycle in a way that enables and encourages Open Design.
+On the other hand, you need to be aware that opening up the design and decision
+making process to a larger group can slow down to come to consensus in some
+cases. However, by electing leaders from the community and by the community
+based on merit, you can ensure that the decisions will always reflect and
+represent the community, whether the contributors made them or their elected
+leaders. While the decision making process might still be longer than in case
+of a smaller group, it is a tradeoff that will benefit the whole community on
+the long run.
 
-The "Open Design" Principle in Practice
----------------------------------------
+The community also needs to ensure that the processes and timelines they use
+are clearly defined and made available for anyone to access publicly without
+any restrictions. This will ensure that both newcomers and established
+contributors know how they can participate, when and where decisions are made
+and will make it easier for them to participate and help improving and
+maintaining the project.
 
-Open Design begins with the establishment of a structure to guide the "when",
-"how", and "where" of the design process. The "when" refers to the
-release-cadence of the software, particularly if it is a feature-based or
-time-based release. A feature-based release allows the community to reach a
-consensus on required capabilities a release should have, then only deliver the
-next version of the software when those features are complete. While there are
-many processes that can help estimate the time and effort it will take to
-deliver a set of requirements, feature-based releases often result in delays in
-delivery. If you're encouraging a large community of diverse developers, it
-gets pretty difficult to get commitments and coordinate activities, leading to
-significant delays. Those delays can have differing and significant impacts,
-particularly on vendors who rely on release schedules for delivering software.
-Release delays can create tension in the community, and raise the barrier of
-entry for contributors by creating an unknown cost.
+To provide you an example, we will discuss the approach the OpenStack community
+took with their release process.
 
-Rather than adopting feature-based releases and doing a bad job at them, it
-is healthier to adopt time-based releases and embrace their benefits. Knowing
-when a release will be cut gives you predictability that is key to a
-healthy collaboration. With a time-based release, there's no single group that
-decides what feature can or can't be included in a release. The features that
-are complete at the release deadline are the features available in that
-release. A time based release means that everybody who depends on the software
-has a clear expectation of how to contribute to the software, and what to
-expect at any given step in the software development process. An additional
-benefit is the ability to schedule events around aspects of the development
-cycle.
+The Open Design Principle in Practice
+-------------------------------------
 
-A time-based release cycle becomes critical for the success of "Open Design".
-Once the schedule is set, contributors know exactly when they can add their
-voice to the design process. Part of the OpenStack design process is to have
-face-to-face events at the beginning of every release cycle to begin the design
-process for the next release. This in-person meeting focuses the attention of
-the community in a neutral environment. These events are open to anyone,
-including developers, users, and vendors.
+Open Design involves to define the lifecycle of the software development
+process, which boils down to define a release process to be able to evolve and
+maintain the project artifacts. A release process defines the "when", "where"
+and "how" the design process happens.
+
+To define the "when", you need to define a release cadence to put out new
+versions of the software and related items, such as documentation. To make this
+step more complicated, you need to decide between a feature-based or a
+time-based release model.
+
+With the former approach, the community needs to identify a set of features
+that needs to be complete in order to be able to cut a release. In most cases
+this results in the inability to provide a good estimate on when the new
+version of the artifacts will be available. With delays in the estimated
+delivery time, users will likely look for alternatives after some time as it
+is harder to plan downstream with this model. A larger community with a more
+complex structure will likely have a hard time to commit to a set of
+functionality and coordinate the steps needed to deliver them as estimated.
+However, projects with a higher number of external dependencies or with a
+larger refactoring activity this option can still be something to consider even
+if only on a temporary basis.
+
+A time-based release model commits to a release cycle and adapts the
+development process to ensure to produce stable and reliable software and
+artifacts on time. This model has a lot of advantages compared to the previous
+one in case of open source communities of any size. Most importantly, it gives
+predictability which is important for those who depend on the release
+downstream as well as to those who are participating in the community. In
+addition, it also makes it easier for newcomers to start participating in your
+community, as they can identify which phase of the release cycle the community
+is going through and that makes it easier for them to find a task or activity
+to start to contribute. This model provides a higher level of transparency with
+being able to define deadlines for processes throughout the cycle.
+
+This approach makes it a little harder to commit, when it comes to features and
+functionality. The community will prioritize work items and will include the
+items that are ready by the time of the release. In some cases a feature might
+only get partially complete and users need to wait until the next release to be
+able to use it. While this can be inconvenient, by looking at the roadmap for
+the project you can still get a good picture about when you get new
+functionality that you need. If a feature is important to you, you can also
+always decide to participate in the making, if you are not doing so yet.
+
+In addition, time-based release cycles provide you and the community the
+ability to plan events and activities, like hackathons around the cadence to
+boost the planning phase, bug fixing or share news and updates with those
+who are interested or new to the project.
+
+While choosing time-based release process is not a criteria of the Open Design
+principle, it is a more natural choice to create good dynamics for a community
+with processes that are easy to discover and follow.
+
+The OpenStack community chose this model and has been practicing it
+successfully since the launch of the project. The community picked a 6-month
+release cadence as that fits best to the size and complexity of the project.
+The community gathers at the beginning of every release cycle, either in person
+or virtually, to provide an environment for more efficient discussions that can
+help with faster planning and better maintenance. The events are open to
+everyone to participate, let them be contributors, users, new comers, and so
+forth.
+
+In order to remain inclusive to those who cannot participate in an event the
+community avoids making decisions at these events. Contributors rather making
+meeting notes available and share thoughts and proposals on the mailing list
+and other channels to provide an opportunity to engage in the discussion to
+those who didn't have access to the event.

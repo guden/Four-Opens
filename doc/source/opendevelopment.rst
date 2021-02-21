@@ -2,51 +2,71 @@
 Open Development
 ================
 
-    We maintain a publicly available source code repository through the entire
-    development process. We do public code reviews. We have public road maps.
-    This makes participation simpler, allows users to follow the development
-    process and participate in QA at an early stage.
+Open Development is the next pillar as well as the next step after establishing
+the Open Design principle. Similarly to the former steps, you also need a
+transparent and inclusive development process that enables everyone to
+participate as equals on a level playing field.
 
-"Open development" refers to the adoption of transparent and inclusive
-development processes that enable everyone to participate as an equal on a
-level playing field. Publicly-accessible services means that everyone can see
-everything about development activities, without even needing to sign up to a
-service. Open development also means that all patches are welcome for
-consideration, whether that patch is from a project founder or a first time
-contributor. A successful open source project will adopt a set of standards
-that clearly states the metrics and standards that a contribution will be
-evaluated against. By defining these standards we create an egalitarian process
-in which contributions are evaluated on a level playing field. The metrics for
-evaluating a patch can include:
+The contributors of your community need to have access to every step of the
+process. This means that the process needs to be documented and accessible for
+everyone including established contributors and newcomers. You need to use
+tools and services that are also available to all participants to use in order
+to perform the required steps of the process.
 
-- Correctness: does the code include tests of its functionality?
-- Quality Assurance: does the code integrate with other projects and
-  not introduce regressions?
-- Documentation: does a new feature include documentation on what
-  it does and how to properly configure it?
-- Purpose: does the code implement a feature identified in the open
-  design process?
+The community should not differentiate between contributions depending on the
+affiliation of the person who authored or committed that change. The review
+process needs to be open with history so requests and decisions can be accessed
+later. While accepting contributions can look subjective you need to put all
+the effort into documenting criteria, guidelines - to write code or
+documentation - and processes to ensure the most objective process possible.
+In addition, you can also put a lot of emphasis on automation, such as testing
+- unit, functional, integration tests and more - in case of source code.
 
-Automation, like automated unit, integration, and style checking, can go a long
-way to establishing a baseline standard for new code. Code review by trusted
-community members is the additional critical layer on top of the automated
-tooling?
+Reviewing contributions should be available, and encouraged, to everyone who is
+interested in the project, even if the final decision can be made only by a
+subset of contributors. These contributors -called core reviewers, committers,
+etc-, should be members of the project leadership and elected by the fellow
+community members based on merit.
 
-This raises the question, how does one become a trusted community member?
-Regular participation in code review and submitting patches builds reputation
-and trust within a community. Aspects of the open development process must
-include facilities for anyone (not just existing projects contributors and
-leaders) to:
+The open development process opens up the avenue for newcomers to become
+seasoned contributors and then take on leadership positions, if that is
+something that they desire. Besides contributing new ideas and functionality,
+it is very important to demonstrate how much one cares about the project,
+including the quality of the software as well as the processes used to create
+and maintain it. You can become part of the community by reviewing
+contributions, propose new ideas, fix issues and participate in the community's
+communication channels, like mailing lists, meetings, and so forth.
 
-- Discover current priorities and tasks.
-- Report bugs and vulnerabilities.
-- Leave reviews on existing patches.
-- Submit patches to a project.
 
-There must also be a clearly defined process that describes how a contributor
-can graduate to different levels of leadership within a project. The success of
-Open Development relies not just on the availability and accessibility of
-tooling in a project, but also upon the healthy governance of a community
-(which we will discuss further in the next chapter on :doc:`Open
-Community <opencommunity>`).
+Open Development Process Examples
+---------------------------------
 
+The OpenStack community is a large group of contributors with multiple project
+teams who've been actively practicing and evolving their development processes
+to make it more efficient and inclusive.
+
+The community is following a set of metrics and guiding principles to evaluate
+a code or documentation change:
+
+- Correctness: code changes need to have corresponding tests to ensure it works
+  as specified
+- Quality Assurance: the code has test cases to ensure smooth integration with
+  other services and does not introduce regression
+- Documentation: a new feature needs to be properly documented, including
+  API documentation and configuration options
+- Purpose: the code change should implement a bug fix or new functionality as
+  previously identified and discussed as part of the open design process
+
+The OpenStack community prioritized automation from the beginning to ensure the
+quality of the code as well as an open development process. Code changes go
+through multiple rounds of automated testing where a change cannot be approved
+without a successful test run. Once a change is approved by the core reviewers
+it goes through one more round of testing. If that is successful, the change
+gets merged into the project's code base. It is very important to note, that
+the last entity who votes on the change is the tool that executes all the
+applicable test cases.
+
+The community is actively working on their contributor focused documentation
+that captures the development processes and tools that are used throughout all
+the phases. This ensures that everyone can gain the knowledge to be able to
+contribute and follow the same guidelines to ensure a level playing field.

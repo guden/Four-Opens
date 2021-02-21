@@ -10,6 +10,7 @@ Contents
 
    introduction
    opensource
+   opencommunity
    opendesign
    opendevelopment
-   opencommunity
+   activities_and_processes
