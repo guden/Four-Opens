@@ -2,337 +2,306 @@
 Practical Examples
 ==================
 
-NOTE: This section still needs editing
+The Four Opens is a set of principles to guide you when you build, support or
+participate in an open source community to ensure a healthy and balanced
+environment.
 
+While there is no magic formula that would apply to all communities, there
+are practices you can follow and steps you can take regardless of you being one
+of the contributors, or if you work for an organization that supports the
+project.
 
+This chapter will give you examples and recommendations to build on based on
+the experiences of the OpenInfra communities and the ecosystems around them. We
+will cover the following areas:
 
-- Common mission & goals.
-- Effective governance & leadership.
-- Diversity & Inclusiveness.
-- Contributor recognition & motivation.
-- Open & Transparent Communication.
-- Branding & positioning (example of collaboration across forces, product
-  definition).
-- Education & On-boarding.
-- Marketing & events.
-- Ambassadors & meet-ups.
-- Cross-community collaboration (NIH).
+- Common mission & goals
+- Effective governance & leadership
+- Diversity & Inclusiveness
 
 Common Mission & Goals
 ----------------------
-A strong mission statement is one of the most critical elements to achieve
-a healthy open source community. It's imperative to outline a long term vision
-that is focused, but not overly constrained. A strong mission statement helps
-define the community values and provides a guide to make decisions and
-prioritize activities. It also helps new contributors and adjacent communities
-quickly understand the goals of the project.
+The idea behind openly-developed open source software is to share and work
+together on tools and projects that provide solutions to common problems. While
+having a shared challenge is a good start for collaboration, it cannot
+guarantee a stable direction for the community in itself. This is why it is
+crucial to define the common goals for the community and summarize them in a
+strong mission statement.
 
-Getting the current stake-holders input and buy-in is key to the success.
-Typically a mission statement is developed in the early days of the project
-when there are fewer contributors, which makes it critical and as a bonus, a
-bit easier to have an open discussion and process. Similarly, changing the
-mission statement should not be taken lightly, and can be a challenging process
-as the community grows and there are a broader range of perspectives. A good
-example of this process came from the Zuul project. Project leaders first
-drafted example mission statements in an etherpad [#f1]_, which was circulated
-to the public mailing list for feedback and new ideas [#f2]_. The list of
-ideas from the etherpad was then put to a Condorcet vote [#f3]_ for the same
-group of contributors, and the result was: "To provide software and processes
+A clear mission statement and goals are essential to create and maintain
+balance between contributors, users and the ecosystem around a community. They
+should be easy to discover to give a clear view of the community values and
+direction to everyone - established and new contributors, adjacent communities,
+users, and so forth.
+
+It is important to spend time on making the mission statement and goals as
+clear and simple as possible. In addition, the community can also define a long
+term vision which describes the target they would like to reach. The vision can
+serve as big picture to provide guidance for actions and decisions. However, as
+both technology and the challenges are changing rapidly, it is worthwhile to
+revisit the mission, goals and vision periodically to ensure they are still
+accurate and update them if necessary.
+
+This step should be completed while the community is in the forming phase, as
+getting input and buy-in from everyone who is motivated to participate is key
+to long term success. The advantage of developing the mission statement in the
+early days is having fewer contributors who need to reach consensus through an
+open discussion and process. As the community grows and evolves the process of
+updating the mission statement and goals should also follow the same open
+procedures, even if it seems harder at first.
+
+A good example to explore is how the Zuul community worked and agreed on their
+goals and mission. Project leaders first drafted example mission statements in
+an etherpad [#f1]_, which was circulated to the public mailing list for
+feedback and new ideas [#f2]_. The list of ideas from the etherpad was then put
+to a Condorcet vote [#f3]_ for the same group of contributors to choose the
+variant that resonated with most, which was: "To provide software and processes
 to automate continuous integration, delivery, and deployment of interrelated
 software projects in a secure manner using project gating."
 
 Effective Governance & Leadership
 ---------------------------------
-Any group needs some form of governance. Governance is the set of rules that
-the group follows in order to address issues and make decisions.  Open source
-projects are just another group, so they need governance in order to avoid
-decision apathy. There needs to be a place where the buck stops, with a clear
-strategy in place to how to solve problems before they arise.
+When you are working together with a group of people you will soon need
+processes and governance to ensure smooth collaboration and operation.
 
-It is tempting, especially amongst tech people, to start with no rules and to
-make them up as you go along. This is anarchy as a form of governance, and a
-community formed under the absence of rules will naturally resist later
-organization, as something they did not sign up for and resent.
+Governance is the set of rules that the group follows in order to address
+issues and make decisions that affect the whole community or some of the
+sub-groups and to avoid decision apathy. Governance can also help to resolve
+any conflicts and help reaching consensus where needed. In addition, having
+formal bodies in a community to guide and deal with technical and community
+related issues these bodies can also help with coordinating cross-community
+outreach and interactions.
 
-It is also tempting to crown the project's initial creator as the "benevolent
-dictator for life". That can work well, until the dictator becomes less
-interested in the project or sadly disappears, at which point the project
-enters governance limbo (as evidenced by the Gentoo and Python examples) with
-no clear way forward. Or worse, engages in unchecked toxic and abusive behavior
-that drives away contributors who aren't "tough enough" to handle the it.
+While you cannot anticipate all challenges that the community will need to
+overcome and every governance body that they will need over time, you should
+still encourage your community - that you are a part of or supporting - to put
+a basic structure in place. This can help to avoid anarchy where you can hit
+big road blocks and obstacles if you try to create an organizational structure
+later as the community is starting to grow. The governance bodies should evolve
+and grow with your community over time.
 
-A base framework for an Open Community governance would balance 4 basic rules:
+There are multiple models to choose from and you can find examples to these
+within existing communities.
+
+Projects often start as a one-person endeavor with no need of governance, and
+from there can naturally evolve into a collaboration on which the initial
+project creator retains full authority and become "benevolent
+dictator for life" (BDFL) [#f5]_. You can look into the Linux kernel, as an
+example to the BDFL model. Even though the Linux kernel became very successful,
+this model has many risks that you need to take into account. If the project
+leader loses interest or has another reason to leave the community, it can
+enter governance limbo with no clear way forward and challenges to make
+decisions the community agrees with (you can see the Gentoo or Python projects
+as examples). The leader can also engage in toxic and in some cases abusive
+behaviors that is hard to control and will affect existing contributors and
+make it hard to on-board newcomers.
+
+The solution to avoid the drawbacks of a BDFL model is to create governance
+bodies, which are diverse groups within the community, that are responsible to
+help and guide the community to work towards its mission to achieve its goals.
+
+To build such framework, you should consider the following four rules:
 
 Contributor-driven bodies
- It is critical that the people contributing code, documentation,
- usage experience, mentoring time or any other form of contribution to
- the project are aligned with the leadership of the project.
+ People who are active participants of the community are the best skilled and
+ positioned to become stewards. By building the governance bodies from the
+ project contributors, you can ensure that they are representing the community
+ that remains aligned with the leadership of the project.
 
- Without contributor-driven bodies, leadership and contributors
- gradually drift apart, to the point where the contributors no longer
- feel like their leadership represents them, making the disruptive
- decision to fork the project under a new, contributor-aligned
- governance, generally leaving the old governance body with a
- trademark and an empty shell to govern.
+ Without contributor-driven bodies and leadership, contributors will most
+ likely gradually drift apart, to the point where they no longer feel like
+ their leadership represents them. This can lead to making the disruptive
+ decision to fork the project under a new, contributor-aligned governance,
+ generally leaving the old governance body with a trademark and an empty shell
+ to govern.
 
 Allowing for replacement
- Nobody should be appointed for life, as life will change people.
- Contributors should regularly be consulted, and the governance should
- generally encourage turnover.
+ Nobody should be appointed for life. Processes should allow to revisit the
+ governance bodies and elect new leaders and group members from the community
+ by the community on a regular basis that is well publicized. This ensures that
+ new views and ideas are brought into the project leadership.
+
+ It can also help to avoid the burning out established leaders as well as
+ encouraging new contributors to join and maintain the project if they have the
+ opportunity to become one of the leaders over time.
 
 Distinct groups call for distinct governance bodies
- If a community is made of disjoint groups with little to no overlap
- in membership, and those groups all need decisions to be made, then
- they probably need to each have their own governance body at that level.
+ As a community grows it often ends up having disjoint groups with little or
+ no overlap between them. For example, these groups can be project teams, who
+ work on different services that make the end product of the community. These
+ project teams usually need a project leader and a stable group of people who
+ ensure quality work and efficient processes around that team and service.
+
+ Every group that is mainly standalone within a community needs to have its own
+ governance body at that level.
 
 Avoid vanity governance bodies
- There is no point in having a governance body where there is nothing
- to govern and no decision needed. Not every group of people in a
- community needs a governance body.
+ In order to keep balance, the opposite of the former rule also applies. You
+ should avoid overloading a community with governance bodies which typically
+ results in making the community slower and less efficient. Once a community
+ has an initial framework it needs to be carefully revisited if all the
+ governing bodies are useful and necessary or if there is a need for a new
+ group for an area that is yet uncovered and therefore not operating
+ efficiently. The opposite is also true as there is no point in having a
+ governance body where there is nothing to govern and no decision is needed. It
+ is crucial to keep balance to focus on helping the community to operate as
+ opposed to drown in heavy and complicated processes or have a governance body
+ just for people to hold power.
 
 There is no one-size-fits-all implementation of these basic rules that would
-work for any project. The size of the project is a critical difference.
-Sometimes a multiple-level structure to properly balance autonomy and
-consistency.
+work for every project. The size of the project is a critical factor to take
+into consideration, where larger communities may call for a multiple-level
+structure to properly balance autonomy and consistency.
 
-We generally recommend using regular elections using a ranking vote mechanism
-(Condorcet, STV...). Condorcet is known to favor consensual candidates over
-faction candidates. Staggered elections (replacing half the seats at each
-election) ensures some leadership continuity. Limits in the number of seats
-potentially held by employees from a single organization are usually a good way
-to sidestep governance gaming.
+Choosing the project stewards could also be a challenging task, but there are
+popular ways to build the governing bodies. When a community is forming and
+people don't necessarily know each other yet, it can be hard to make a decision
+that involves the whole community. A common practice is to appoint the first
+group or groups of leaders from the people who launched the project.
+
+After a first term -that often spans from 6-month to a year- when the community
+is operational they are most often switch to an election-based process to find
+new members to the governance bodies. Popular choices to make:
+
+- Use a ranking vote mechanism (Condorcet, STV...)
+- Condorcet is known to favor consensual candidates over faction candidates
+- Staggered elections (replacing half the seats at each election) ensures some
+  leadership continuity with the opportunity to introduce new members and
+  refresh the group
+- Limits in the number of seats potentially held by employees from a single
+  organization are usually a good way to sidestep governance gaming
 
 Governance bodies should ideally only make consensual decisions, but when that
-proves impossible and a decision needs to be made, a formal vote should be
-held. It's useful that the body has an odd number of members to avoid having to
-give anyone a tie-breaking specific power.
+proves impossible and a decision needs to be made, this can be resolved by
+holding a formal vote. You can also consider having odd numbers of members in
+the governance bodies to avoid having to give anyone a tie-breaking specific
+power.
 
-Some of the things that indicate a healthy community are:
+Diversity & Inclusiveness
+-------------------------
+Open source practices are all about open collaboration without limits and
+boundaries, but it's much easier said than done.
 
-Diversity & inclusiveness
- Nowhere are the three forces (developers, users, ecosystem) more
- important than when dealing with diversity and inclusiveness.
+A community has to be an inclusive and safe environment to participate in for
+everyone, regardless of their circumstances and characteristics, such as
+gender, sexual orientation, disability, physical appearance, body size, race,
+nationality or religion. In order to create such environment, you need to
+create and maintain a culture within the community, which requires work and
+conscious effort from the very beginning. And along with culture and human
+behavior, the community also needs inclusive processes.
 
- Providing an inclusive and safe experience for everyone, regardless
- of gender, sexual orientation, disability, physical appearance, body
- size, race, nationality or religion is not only critical to the
- health of the entire open source community, it's something that must
- be considered at the beginning of a project.
+There are several steps that you can take to create a friendly, welcoming and
+accessible environment for everybody no matter who and where they are. This
+section mentions a handful of these for you to consider to apply in the
+community you support or participate in.
 
 Code of Conduct
- A code of conduct may not seem necessary as your community is getting
- its start. However, creating a path for conflict identification and
- resolution at the start can head off issues before they balloon out
- of control and alienate valuable contributors and community members.
- Make the code of conduct a carefully crafted, but also prominent, part
- of the larger strategy to be inclusive and diverse. The OpenStack
- Foundation initially adopted the Ubuntu Code of Conduct when
- establishing its own.
++++++++++++++++
+While we all expect people to bring their best behavior and intentions, there
+are cases when people's actions and interactions go beyond a limit and become
+harmful. The community needs to be able to define their standards to state
+their values, rules and expectations with regards to how people are expected to
+behave and treat each other. The document that describes these items is called
+a Code of Conduct.
 
-    The first lesson learned is the enforcement policy is equally as important
-    as the code of conduct. We did not put enough thought into how it was
-    applied or enforced across our various community events and activities.
-    Delaying the resolution process while your leadership consults legal
-    experts and attempts to come to a solution can be more damaging than the
-    violation itself.  Having a clear path to enforcement and resolution sends
-    a strong message to the community that you have thought through the process
-    and are looking out for their best interest.
+While it may seem self explanatory, and, with that, unnecessary to have from
+the launch of the project, it is a crucial step and serves as the foundation to
+create the open and inclusive culture and environment that is desired for every
+open source community.
 
- Representation? A few years into the project, we worked with the
- community, including the Diversity Working Group, to publicly
- document an enforcement policy. Again, we looked to another
- successful open source community, Python and PyCon, as a basis for
- our policy. This policy gives anyone who wants to report an issue a
- clear call to action and sets expectations for how it will be handled
- and gives the Foundation staff a clear process to follow and removes
- the emotion from the process.
+There are several well-crafted Code of Conduct documents that you and your
+community can use as a basis to create your own with giving recognition to the
+original document. As an example, portions of the Open Infrastructure
+Foundation's Code of Conduct were derived from the PyCon Conference Code of
+Conduct.
 
-    Check the health of your community as you go. Do you have something
-    similar to the following?
+To take this a step further, defining your values and expectations is not
+enough without a process to be able to enforce it and report violations. It is
+very important to address the creation of such process along with the Code of
+Conduct document. Having a process to report violations in a clear and
+anonymous way and having a similarly clear resolution path are key to make your
+community a safe environment for everyone in it. Violating the code of conduct
+always have emotional implications and therefore being able to resolve the
+conflict as soon as possible is in the best interest of both the community as
+well as the individuals involved in the incident.
 
-    Groups that advocate for minorities: A working group to help ensure
-    projects and teams within the community are following the code of conduct
-    and properly representing diverse voices.
+Advocacy and Support
+++++++++++++++++++++
+Having a Code of Conduct and continuously putting effort into creating a
+friendly and welcoming culture for the project are just the first steps, but
+they are not necessarily enough to build a truly diverse community. People,
+especially in under represented groups, can have a hard time when they start to
+participate in a community that is new to them because of bad experiences
+elsewhere or just because of being intimidated to join a larger group of people
+who they don't know.
 
-    Visible documentation of policies and enforcement
+Many communities recognized these challenges and contributors are forming
+groups to put more focused efforts into helping newcomers to join a project as
+well as to ensure that the community is a safe and friendly environment for
+everyone.
 
-    Regular surveys and check-ins with your community
+The OpenStack community recognized this need early on and formed a group called
+Women of OpenStack (WOO), where they set it to their mission to help women in
+technology to become part of this project. The group had a mailing list and a
+channel on IRC in order to be reachable for anyone in need and they were also
+meeting on a regular basis to find ways to advocate for women, and help them
+with their first steps and contributions. While the name might suggests, the
+group was open for anyone to join, regardless of their gender, who was wanted
+to participate in reaching the group's mission and goals. The WOO group also
+organized gatherings at OpenStack and some other events as well to reach out to
+more and more people in need of their help and support.
 
-The strength of the community can be enhanced through education, culture,
-pro-active recruitment, in addition to the processes mentioned above.
+Over time the WOO group transformed into the Diversity and Inclusion Working
+Group to broaden the group of people to reach out to, as there are many under
+represented groups in tech who need to find their voices and freedom to be able
+to do what they are passionate about.
 
-Consider that the needs for diversity and inclusiveness extend beyond the
-normal development community and must be shared with your users and the
-ecosystem at large. Don't assume that you know all of the barriers that your
-community members may face. Take the extra steps to pro-actively ask them to
-identify the challenges they face in trying to contribute and then break down
-barriers to participation  whether those barriers are time zones, culture,
-gender, age, education, etc. Supporting a diverse set of leaders, both
-geographical and by organization, can help reinforce this participation and
-will ultimately make for a stronger community.
+Inclusive Processes
++++++++++++++++++++
+When we talk about diversity it is easy to focus on the bigger movements that
+consider factors like gender, race, religion, and so forth. But being inclusive
+is even broader than that.
 
-Contributor Recognition & Motivation
-------------------------------------
+Especially in case of larger global communities, simple things like time zones
+and spoken language can prevent someone from participating. It is very
+important that both the community as a whole as well as individuals in it are
+conscious about these factors when they build their processes and define their
+ways to collaborate.
 
-An open source project cannot survive without contributors, so it is important
-for project leaders to motivate developers and find chances to encourage
-them. It could be a mention in the project newsletters or an email sent to
-public mailing lists or blog posts. Another good example could be the Open
-Infrastructure Community Contributor Awards [#f4]_ which offer recognition to
-behind-the-scenes heroes and are nominated at every Summit by other community
-members.
+To give a simple example, if your community relies on meetings for strategic
+discussions and to make decisions that means that you are excluding all the
+people from the decisions making process who are unable to attend these
+gatherings for any reason. This violates many pillars of the Four Opens, as the
+people who are unable to participate in these discussions cannot make their
+voices heard and participate and have much less chance to ever rise to
+leadership positions, even if they are still motivated to do so.
 
-Open & Transparent Communication
---------------------------------
+The OpenInfra communities rely a lot on their mailing lists to ensure that the
+discussions that concern project teams or the whole community can reach
+everyone before decisions need to be made. It is a conscious decision to
+provide enough time and accessible channels for everyone to weigh in regardless
+of where they are and what is their native language. On top of mailing lists
+you can also use review tools like Gerrit or GitHub to publish items like
+design documents or resolutions that you need a decision on. These tools
+provide the possibility for everyone to read the problem statement, even
+without creating a user and sign in, and to join the discussion which is also
+logged to keep a conversation history.
 
-Is there anything more emblematic of the modern work-force than attempting to
-solve the problem of day-to-day communication? Open source communities face
-standard issues of isolation due to remote work, time zone variations, travel,
-and so on. There is typically no home office for teams to meet face-to-face in.
-Conversely, remote tribes of team members can work together on a project, but
-in the same physical office space, creating friction amongst other team
-members.
+Diversity is also represented in the ways how people can contribute. Even when
+we talk about software development communities, not everyone is a software
+developer who participates. You need documentation for the project, a website
+where you can share information, people who report issues with the software,
+speak at or organize events and many other things that are not about code
+development, but essential for the long term success of your project. If you
+only focus on and favor the technical contributors, the community will not be
+an inclusive place anymore to a lot of people whose knowledge and experience
+are key.
 
-Highly transparent communication is imperative to help bridge these barriers to
-a healthy community.  Open communication channels (mailing list, IRC or slack,
-web-site) not only help to document decisions, but enable new contributors to
-catch up and get involved with the community. Providing a set of open source,
-and internationally available, tools will aid collaboration and help build
-community. OpenStack initially started collaborating with Google Docs, but
-ultimately realized that we excluded a large portion of the world where Google
-products were inaccessible/unavailable.
-
-Host meetings in a way that can be archived and searched, so that the
-conversations are accessible to all time-zones and participants who do
-not speak English as their first language. Internationalization
-(translation, tool choices like google docs, time-zones), in general,
-helps foster a more diverse group of contributors.
-
-Board meetings in particular should be open so that anyone can dial in.
-Notes/re-cap should be sent out to the community at large via mailing lists
-within 48 hours of the meeting.  At the OpenStack Foundation, the transparency
-policy for the board developed within the first year.
-
-In person communication is as important as online.  Identify the most
-accessible way to leverage the community and their channels to share your
-messaging.  This can include local user groups, regional meet-ups,
-international/national summits, developer mid-cycles.  All can be used to
-further educate and engage your open source community.
-
-Branding & positioning
-----------------------
-
-Branding and positioning is an example of collaboration across forces
-and product definition which includes tools and processes.
-
-Develop with stake-holders, open to community Some degree of
-collaboration is useful and necessary, but only to an extent. This is
-especially true in regards to visual identity since it can be
-subjective and contentious. Design rationale should be provided to the
-community to build consensus, but there should be key decision makers
-to prevent the ideation process from continuing to infinity. Lessons
-learned with project mascots In an attempt to provide consistency we
-discovered removed individuality with some projects Slippery slope -
-Once the projects got them, every small group also wanted their own
-mascot Upside - These are actually picked up and used regularly by the
-press and in group events. Critical to develop brand guidelines, to
-give community guidelines to extend brand beyond internal resources
-Development of consistent UX to be applied to web-sites,
-documentation, etc.... This can be tough b/c the needs of the design
-team don't always mesh with the needs/methods of developers managing
-properties like documentation. Design must be available as an easy
-plug in (HTML or javascript snippet) for headers and footers of sites.
-
-Marketing & Strategy
---------------------
-
-Once the initial branding and positioning has been finalized, share
-with all key stake-holders. The challenge is often identifying the
-correct channel to ensure everyone is apprised of updates and changes.
-This may take time, but trying different options and even a
-combination of a few often helps reinforce the messaging and branding
-for the maximum impact. Ahead of the start of the year, identify the
-largest areas of opportunity to increase brand visibility and
-favorability to create a strategy. After identifying programs, events
-and projects that can support the strategy, communicate this back to
-the community, reaching out to the marketing teams at the ecosystem
-companies directly to participate and provide feedback. This is your
-biggest opportunity for a ripple effect. Stay apprised of market share
-and user adoption metrics. Share these metrics openly and broadly,
-particularly with the ecosystem companies and elected officials who
-represent the three forces. This can be done in joint leadership
-meetings, both remote and in person, as well as mailing list
-newsletters. If the information could be perceived negatively, come
-prepared with a solution or action plan to increase confidence of key
-stake-holders. It's important to pro-actively share the negative
-information when possible to prevent reactionary fear, uncertainty and
-doubt. Identify key dates and milestones that celebrate the successes
-of the community. Whether it's specific to a force, like a software
-release or new case study or specific to the software or community
-itself, like results in a market report or participation in a
-supported event. This helps create momentum and rewards the positive
-community efforts that are impacting another force or even the broader
-industry. Leverage collaborative opportunities when possible. If the
-broader market perceptions indicate a confusion around facts that
-affect one of the three forces, collect the people most affected to
-identify a way to pro-actively address the problem. An example would
-be that OpenStack is seen as only a private cloud solution. A Public
-Cloud Working Group that collaborates to create programs and most
-recently messaging that will help alleviate the confusion is a
-response that helps leverage the affected parties to address the
-overarching issue.
-
-Events
-------
-
-Support upstream developers with dedicated space and events to
-collaborate and get work done. This includes collaboration within a
-project and cross-project collaboration. Create a productive event
-that combines upstream developers with operators so that production
-challenges and successes can be combined with software road-maps and
-bug tracking. Create an opportunity for ecosystem companies to
-interact with operators and developers to educate around available
-products, gain insights from the market and participate in road-map
-discussions. Identify gaps in both the community and the overall
-market and use events as an opportunity to gather content, subject
-matter experts and adjacent communities to share knowledge and solve
-problems. OpenStack Days Industry events
-
-Education & On-boarding
------------------------
-
-The goal is to make the barrier to entry as low as possible. Clear,
-discoverable and digestible documentation Recorded and real time
-on-boarding sessions - webinars, f2f sessions at events Suggest
-training the trainer - creating a toolbox and guidelines to provide
-to regional community members so they can lead their own on-boarding
-sessions Documented ways to communicate with seasoned experts / join
-meetings to accelerate on-boarding. Mentorship programs
-
-Ambassadors & Meet-ups
-----------------------
-
-Supporting global communities through user groups, ambassador
-program, Providing resources & content for events and meet-ups, and
-setting precedents for those events (branding, content, etc.), while
-still giving them creative freedom building the relationships first;
-find leaders outside of the Foundation to foster new user groups
-leaders; collab sessions at Summits using tools available to all
-regions community of 90,000; team of 23 (XX ambassadors, 100+ user
-groups) Collaborating with local leaders to better understand
-regional differences in the technology choices, use cases and
-community involvement. Create a way to co-own user group contacts to
-ease the transfer of ownership if people leave the community or if
-there are any bad actors.
-
-Cross-community collaboration (NIH)
------------------------------------
-
-From the very beginning invite other communities and projects to
-collaborate and participate. In turn actively reach out to engage and
-participate in other communities to enhance integration efforts. Need
-examples here
-
+Being inclusive can be very challenging due to a lot of circumstances that a
+community has to overcome. But it has to be a choice from the first day to
+create a culture, where inclusivity is a principle that turns into action every
+day, which includes the processes that the community creates to help them to
+collaborate without boundaries.
 
 .. rubric:: Footnotes
 
@@ -340,4 +309,4 @@ examples here
 .. [#f2] http://lists.zuul-ci.org/pipermail/zuul-discuss/2018-May/000394.html
 .. [#f3] https://civs.cs.cornell.edu/cgi-bin/results.pl?id=E_708e8e18e160cdcf
 .. [#f4] https://superuser.openstack.org/articles/open-infrastructure-community-contributor-awards-denver-summit-edition/
-
+.. [#f5] https://en.wikipedia.org/wiki/Benevolent_dictator_for_life
